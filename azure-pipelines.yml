@@ -6,8 +6,8 @@
 trigger:
 - main
 
-pool:mylaptop
-  vmImage:'ubuntu-latest'
+pool:
+  name: mylaptop
 
 steps:
 - script: echo Hello, world!
